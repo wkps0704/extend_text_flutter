@@ -16,6 +16,7 @@ class ExtendedRichText extends _RichText {
     super.softWrap = true,
     super.overflow = TextOverflow.clip,
     super.textScaler = TextScaler.noScaling,
+    super.textScaleFactor,
     super.maxLines,
     super.locale,
     super.strutStyle,

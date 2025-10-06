@@ -152,7 +152,6 @@ abstract class _RichText extends MultiChildRenderObjectWidget {
   /// {@macro flutter.painting.textPainter.textScaler}
   final TextScaler textScaler;
 
-
   /// The number of font pixels for each logical pixel.
   ///
   /// For example, if the text scale factor is 1.5, text will be 50% larger than

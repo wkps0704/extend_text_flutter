@@ -137,6 +137,7 @@ class ExtendedText extends Text {
       overflow:
           overflow ?? effectiveTextStyle?.overflow ?? defaultTextStyle.overflow,
       textScaler: textScaler ?? MediaQuery.textScalerOf(context),
+      textScaleFactor: textScaleFactor ?? MediaQuery.textScaleFactorOf(context),
       maxLines: maxLines ?? defaultTextStyle.maxLines,
       strutStyle: strutStyle,
       textWidthBasis: textWidthBasis ?? defaultTextStyle.textWidthBasis,
