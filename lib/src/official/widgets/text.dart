@@ -282,6 +282,7 @@ class _Text extends StatelessWidget {
       locale: locale,
       // RichText uses Localizations.localeOf to obtain a default if this is null
       softWrap: softWrap ?? defaultTextStyle.softWrap,
+      textScaleFactor: textScaleFactor ?? MediaQuery.textScaleFactorOf(context),
       overflow:
           overflow ?? effectiveTextStyle?.overflow ?? defaultTextStyle.overflow,
       textScaler: textScaler ?? MediaQuery.textScalerOf(context),
